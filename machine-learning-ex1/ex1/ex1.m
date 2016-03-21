@@ -52,7 +52,7 @@ pause;
 %% =================== Part 3: Gradient descent ===================
 fprintf('Running Gradient Descent ...\n')
 
-X = [ones(m, 1), data(:,1)]; % Add a column of ones to x
+X = [ones(m, 1), data(:,1)]; % Add a column of ones to x or use X= [ones(m,1), X]
 theta = zeros(2, 1); % initialize fitting parameters
 
 % Some gradient descent settings
